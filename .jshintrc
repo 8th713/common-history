@@ -1,0 +1,27 @@
+{
+  "predef": [
+    "after",
+    "afterEach",
+    "before",
+    "beforeEach",
+    "describe",
+    "expect",
+    "it",
+    "jest",
+    "xit",
+    "xdescribe"
+  ],
+
+  "newcap": false,
+  "undef": true,
+  "unused": true,
+
+  "asi": true,
+  "boss": true,
+  "eqnull": true,
+  "esnext": true,
+  "expr": true,
+
+  "node": true,
+  "browser": true
+}

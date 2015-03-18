@@ -1,0 +1,40 @@
+{
+  "name": "common-history",
+  "version": "0.0.1",
+  "description": "Consistent API of HTML5 history API and hash fragments control.",
+  "author": "8th713 <8th713@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^4.7.3",
+    "babel-jest": "^4.0.0",
+    "jest-cli": "^0.4.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "watch": "babel src --out-dir lib -t -w",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/8th713/common-history.git"
+  },
+  "keywords": [
+    "history",
+    "location"
+  ],
+  "jest": {
+    "scriptPreprocessor": "./node_modules/babel-jest",
+    "testPathDirs": [
+      "./src"
+    ],
+    "unmockedModulePathPatterns": [
+      "babel"
+    ]
+  }
+}
